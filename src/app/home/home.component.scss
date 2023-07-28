@@ -14,15 +14,21 @@
     #homeTittle {
         text-align: center;
         margin-top: 50px;
+        margin-bottom: 20px;
         color: $cor-principal;
         font-size: 40px;
         text-shadow: 2.5px 2.5px 1px black;
-
     }
 
-    
+    h2{
+        text-align: center;
+    }
+
+
 
     mat-grid-list {
+
+        margin-top: 50px;
 
         mat-grid-tile {
 
@@ -69,6 +75,7 @@
 
                     mat-card-actions {
                         padding-bottom: 20px;
+
                         button {
                             display: block;
                             width: 100%;
@@ -76,12 +83,12 @@
                             cursor: pointer;
                             border: none;
                             border-radius: 4px;
-                            background-color : $cor-principal;
+                            background-color: $cor-principal;
                             color: white;
 
-        
+
                         }
-                    }          
+                    }
                 }
             }
 
