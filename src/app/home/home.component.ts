@@ -15,6 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
 })
 
 export class HomeComponent {
-  nome: string = 'Vitor';
+
+  nome: string[] = ['Vitor'];
   imoveis: string[] = ['Casa Magnífica', 'Apartamento Padrão', 'Casa de Campo', 'Flat Minimalista', 'Sala Comercial', 'Cobertura Duplex'];
 }

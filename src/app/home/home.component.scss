@@ -10,6 +10,7 @@
     width: 1140px;
     display: block;
     margin: auto;
+    padding-bottom: 70px;
 
     #homeTittle {
         text-align: center;
@@ -28,8 +29,6 @@
 
     mat-grid-list {
 
-        margin-top: 50px;
-
         mat-grid-tile {
 
             mat-card {
@@ -37,7 +36,8 @@
                 margin: 8px;
                 border-radius: 5px;
                 box-shadow: 4px 4px $cor-principal;
-                border: 1px solid black;
+                border: 0.5px solid black;
+                padding: 10px;
 
                 &:hover {
                     box-shadow: $card-shadow;
