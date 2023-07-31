@@ -12,13 +12,15 @@ import { HeaderComponent } from './header/header.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { DetalhesComponent } from './detalhes/detalhes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuemSomosComponent,
     ContatoComponent,
-    HeaderComponent
+    HeaderComponent,
+    DetalhesComponent
   ],
   imports: [
     BrowserModule,

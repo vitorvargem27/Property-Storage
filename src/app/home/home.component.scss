@@ -12,22 +12,35 @@
     margin: auto;
     padding-bottom: 70px;
 
-    #homeTittle {
+    h1 {
         text-align: center;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 20px;
         color: $cor-principal;
         font-size: 40px;
         text-shadow: 2.5px 2.5px 1px black;
     }
 
-    h2{
-        text-align: center;
+    #imoveisFavoritos {
+        h2 {
+            text-align: center;
+            margin-top: 7px;
+        }
+    }
+
+    #listaImoveis {
+        padding-top: 80px;
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            font-size: $extra-grande;
+        }
     }
 
 
 
     mat-grid-list {
+        margin-top: 30px;
 
         mat-grid-tile {
 
@@ -86,7 +99,14 @@
                             background-color: $cor-principal;
                             color: white;
 
-
+                            &:hover {
+                                background-color: white;
+                                color: $cor-principal;
+                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                font-style: italic;
+                                text-shadow: 1px 1px 1px $cor-principal;
+                                transition: all 0.5s;
+                            }
                         }
                     }
                 }
