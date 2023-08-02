@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isStandalone } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -8,11 +8,14 @@ import { HomeComponent } from './home/home.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { DetalhesComponent } from './detalhes/detalhes.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { DetalhesComponent } from './detalhes/detalhes.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,8 @@ import { DetalhesComponent } from './detalhes/detalhes.component';
     QuemSomosComponent,
     ContatoComponent,
     HeaderComponent,
-    DetalhesComponent
+    DetalhesComponent,
+    LoginPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -28,10 +32,12 @@ import { DetalhesComponent } from './detalhes/detalhes.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    FooterComponent,
 
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

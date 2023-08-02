@@ -4,10 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { DetalhesComponent } from './detalhes/detalhes.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 const routes: Routes = [
   //Declarando a página home//
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: '', redirectTo: 'login-page', pathMatch: 'full'},
+
+  {
+    path: 'login-page', component: LoginPageComponent
+  },
 
   {
     path: 'home', component: HomeComponent

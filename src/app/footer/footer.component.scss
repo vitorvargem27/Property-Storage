@@ -1,0 +1,18 @@
+@import "../header/header.component.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-end {
+    width: 100%;
+
+    .example-spacer {
+        flex: 1 1 auto;
+    }
+
+    .imageSocialLinks {
+        filter: invert(100%);
+    }
+}

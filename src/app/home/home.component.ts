@@ -24,7 +24,6 @@ export class HomeComponent {
     this.router.navigate(['/detalhes', imovelId]);
   }
 
-
   nome: string = 'Vitor';
   sobrenome: string = 'Barbosa';
   imoveis: Array<any> = [
@@ -93,6 +92,6 @@ export class HomeComponent {
       tamanho: 200,
       valor: "R$" + 150 + ".000",
       favorito: true
-    }
+    },
   ]
 }
