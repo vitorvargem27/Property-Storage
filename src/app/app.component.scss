@@ -19,37 +19,3 @@ $text-color-footer: white;
 
 /*SHADOW */
 $card-shadow:  7px 7px rgb(81, 81, 151);
-
-
-mat-toolbar {
-    background-color: $cor-principal;
-    color: $text-color-footer;
-
-    .container {
-        width: 1140px;
-        display: flex;
-        margin: auto;
-    }
-
-    h1 {
-        font-family: $fonte-principal;
-        font-size: $extra-grande;
-    }
-
-    .menu-spacer {
-        flex: 1 1 auto;
-    }
-
-    button {
-        &:hover {
-            background-color: $cor-principal;
-            color: blue;
-        }
-    }
-
-    .mat-toolbar-text {
-        font-size: 15px;
-        margin-right: 20px;
-    }
-
-}
